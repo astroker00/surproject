@@ -1,40 +1,23 @@
 body {
-    margin: 0;
-    background: black;
-    cursor: crosshair;
-  }
-  canvas{display:block}
-  h1 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:red;
-    font-family: "Source Sans Pro";
-    font-size: 5em;
-    font-weight: 900;
-    -webkit-user-select: none;
-    user-select: none;
-  }
-  h3{
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-45%, 200%);
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
-    -webkit-user-select: none;
-    user-select: none;
-    margin-bottom: 10px;
-  }
-  img {
-    display: block;
-    margin: 0 auto; 
-    max-width: 100%; 
-    height: auto; 
-    background-color: black;
-    transform: translate(-10%, 10);
-    color: black;
+  margin: 0;
+  background: black;
+  cursor: crosshair;
+  padding: 0;
+}
+
+h1, h3 {
+  background-color: brown;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  background-color: black;
 }
