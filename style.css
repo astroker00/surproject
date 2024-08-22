@@ -16,8 +16,9 @@ body {
     -webkit-user-select: none;
     user-select: none;
   }
-  h3{
+  p{
     color: white;
+    text-align: justify ;
     position: absolute;
     top: 20%;
     left: 50%;
