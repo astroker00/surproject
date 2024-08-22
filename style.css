@@ -9,7 +9,7 @@ body {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:red;
+    color: blueviolet;
     font-family: "Source Sans Pro";
     font-size: 5em;
     font-weight: 900;
@@ -18,8 +18,8 @@ body {
   }
   p{
     color: white;
-    text-align: justify ;
-    position: relative;
+    text-align: justify;
+    position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-45%, 200%);
